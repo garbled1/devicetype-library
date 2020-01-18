@@ -1,0 +1,36 @@
+manufacturer: TrippLite
+model: PDUMH15AT
+slug: PDUMH15AT
+subdevice_role: parent
+u_height: 1
+is_full_depth: false
+# comments: 1.4kW Single-Phase Switched Automatic Transfer Switch PDU, 2 120V 5-15P 15A Inputs, 8 5-15R Outputs, 1U
+console-ports:
+  - name: Config
+    type: de-9
+power-ports:
+  - name: Primary Input
+    type: nema-5-15p
+    maximum_draw: 1400
+  - name: Secondary Input
+    type: iec-60320-c14
+    maximum_draw: 1400
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+  - name: Outlet 2
+    type: nema-5-15r
+  - name: Outlet 3
+    type: nema-5-15r
+  - name: Outlet 4
+    type: nema-5-15r
+  - name: Outlet 5
+    type: nema-5-15r
+  - name: Outlet 6
+    type: nema-5-15r
+  - name: Outlet 7
+    type: nema-5-15r
+  - name: Outlet 8
+    type: nema-5-15r
+device-bays:
+  - name: Acc Slot SNMP

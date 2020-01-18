@@ -1,0 +1,17 @@
+manufacturer: TrippLite
+model: SNMPWEBCARDv1
+slug: SNMPWEBCARDv1
+subdevice_role: child
+u_height: 0
+# comments: SNMP Management Accessory Card, SmartPro or SmartOnline UPS Systems
+console-ports:
+  - name: Config
+    type: other
+    # din8
+  - name: EnviroSense
+    type: other
+    # din8
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true

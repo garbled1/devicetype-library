@@ -1,0 +1,40 @@
+manufacturer: TrippLite
+model: SMART1500LCD
+slug: SMART1500LCD
+# comments: SmartPro LCD 120V 1500VA 900W Line-Interactive UPS, AVR, 2U Rack/Tower, LCD, USB, DB9 Serial, 8 Outlets
+u_height: 2
+is_full_depth: false
+console-ports:
+  - name: RS232
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Power Port 1
+    type: nema-5-15p
+    maximum_draw: 900
+power-outlets:
+  - name: Top 1
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Top 2
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Top 3
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Top 4
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Bottom 1
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Bottom 2
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Bottom 3
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Bottom 4
+    type: nema-5-15r
+    power_port: Power Port 1
