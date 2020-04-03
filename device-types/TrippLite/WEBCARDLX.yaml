@@ -1,0 +1,17 @@
+manufacturer: TrippLite
+model: WEBCARDLX
+slug: webcardlx
+subdevice_role: child
+u_height: 0
+# comments: SNMP Management Accessory Card, SmartPro or SmartOnline UPS Systems
+console-ports:
+  - name: Config
+    type: usb-micro-a
+    # din8
+  - name: USB
+    type: usb-a
+    # din8
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true
