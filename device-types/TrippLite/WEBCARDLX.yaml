@@ -7,10 +7,8 @@ u_height: 0
 console-ports:
   - name: Config
     type: usb-micro-a
-    # din8
   - name: USB
     type: usb-a
-    # din8
 interfaces:
   - name: Network
     type: 100base-tx
